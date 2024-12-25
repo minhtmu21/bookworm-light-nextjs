@@ -3,7 +3,11 @@
  */
 
 const nextConfig = {
-  reactStrictMode: true,
+    reactStrictMode: true,
+    experimental: {
+        runtime: "edge",
+        appDir: true
+    }
 };
 
 module.exports = nextConfig;
